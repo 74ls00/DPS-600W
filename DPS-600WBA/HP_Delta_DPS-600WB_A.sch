@@ -15038,7 +15038,6 @@ DIN A4, landscape with extra doc field</description>
 <part name="Q4" library="transistor-fet" deviceset="SPW47N60S5" device="" value="20n60c3 TO-220"/>
 <part name="R8" library="rcl" deviceset="R-EU_" device="R0805" value="1002 0805"/>
 <part name="FRAME1" library="frames" deviceset="DINA4_L" device=""/>
-<part name="FRAME2" library="frames" deviceset="DINA4_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15139,10 +15138,8 @@ F 12.5A H 250V</text>
 <attribute name="NAME" x="255.27" y="271.78" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="R8" gate="G$1" x="259.08" y="261.62"/>
-<instance part="FRAME1" gate="G$1" x="55.88" y="121.92"/>
-<instance part="FRAME1" gate="G$2" x="231.14" y="121.92"/>
-<instance part="FRAME2" gate="G$1" x="55.88" y="-81.28"/>
-<instance part="FRAME2" gate="G$2" x="231.14" y="-81.28"/>
+<instance part="FRAME1" gate="G$1" x="58.42" y="119.38"/>
+<instance part="FRAME1" gate="G$2" x="233.68" y="119.38"/>
 </instances>
 <busses>
 </busses>
